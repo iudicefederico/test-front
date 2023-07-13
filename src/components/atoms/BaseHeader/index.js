@@ -9,7 +9,7 @@ const BaseHeader = () => {
       <div className="base-header-container">
         <div className="selected">
           <h5>Municipio</h5>
-          <svg class="svg-icon" viewBox="1 1 16 22">
+          <svg className="svg-icon" viewBox="1 1 16 22">
             <path
               fill="#838382"
               d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z"
@@ -76,9 +76,9 @@ const BaseHeader = () => {
                     viewBox="0 0 32 28"
                     fill="none"
                     stroke="#12416F"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <circle cx="12" cy="12" r="10"></circle>
@@ -111,7 +111,7 @@ const BaseHeader = () => {
       <div className="base-subheader-container">
         <div className="selected2">
           <h5 className="presup">Presupuesto</h5>
-          <svg class="svg-icon" viewBox="-3 3 24 22">
+          <svg className="svg-icon" viewBox="-3 3 24 22">
             <path
               fill="#00b1c7"
               d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z"
