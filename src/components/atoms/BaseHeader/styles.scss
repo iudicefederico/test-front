@@ -1,71 +1,155 @@
-@import '../../../assets/styles/fonts';
-@import '../../../assets/styles/variables';
+@import "../../../assets/styles/fonts";
+@import "../../../assets/styles/variables";
 
-.base-header-container{
-    display: flex;
-    height: 80px;
-    min-height: 80px;
-    align-items: center;
-    padding: 0 43px;
-    position: relative;
-    width: 100%;
-
-    .base-header-title{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 30%;
-        .dropdown{
-            margin-right: 32px;
-        }
-    }
-    .base-header-counter {
-        display: flex;
-        justify-content: center;
-        width: 40%;
-        text-align: center;
-    }
-    .base-header-user{
-        display: flex;
-        width: 30%;
-        justify-content: flex-end;
-    }
-    .base-header-actions{
-        display: flex;
-        div{
-            color: #022040;
-            margin-left: 20px;
-        }
-        .base-header-actions-notifications{
-            position: relative;
-
-            .base-header-actions-notifications-number{
-                background-color: #1F3BA3;
-                color: #FFFFFF;
-                border-radius: 50%;
-                padding: 2px 6px 1px;
-                font-weight: bold;
-                position: absolute;
-                right: -2px;
-                top: -4px;
-                font-size: 12px;
-            }
-        }
-    }
+.selected {
+  display: flex;
+  flex-direction: row;
 }
 
+.svg-icon {
+  width: 1rem;
+}
+
+h5 {
+  color: #838382;
+}
+
+.base-header-container {
+  display: flex;
+  height: 80px;
+  min-height: 80px;
+  align-items: center;
+  padding: 0 43px;
+  position: relative;
+  width: 100%;
+
+  .base-header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    .dropdown {
+      margin-right: 32px;
+    }
+  }
+  .base-header-counter {
+    display: flex;
+    width: 40%;
+  }
+  .base-header-user {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+  }
+  .base-header-actions {
+    display: flex;
+    div {
+      color: #022040;
+      margin-left: 20px;
+    }
+    .base-header-actions-icon {
+      position: relative;
+
+      .base-header-actions-notifications-number {
+        background-color: #1f3ba3;
+        color: #ffffff;
+        border-radius: 50%;
+        padding: 2px 6px 1px;
+        font-weight: bold;
+        position: absolute;
+        right: -2px;
+        top: -4px;
+        font-size: 12px;
+      }
+    }
+  }
+}
 
 @media (max-height: $mobile-height) and (max-width: $mobile-width) {
-    .base-header-container{
-        display: flex;
-        height: 98px;
-        align-items: center;
-        padding: 0 16px;
-        position: relative;
-        width: 100%;
-        .base-header-logo{
-            position: relative;
-            left: auto;
-        }
+  .base-header-container {
+    display: flex;
+    height: 98px;
+    align-items: center;
+    padding: 0 16px;
+    position: relative;
+    width: 100%;
+    .base-header-logo {
+      position: relative;
+      left: auto;
     }
+  }
+}
+
+.base-subheader-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.selected2 {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.presup,
+.config {
+  font-size: 14px;
+}
+
+.subtitle3 {
+  font-size: 18px;
+}
+
+.config {
+  color: #00b1c7;
+}
+
+.subtitle4 {
+  background-color: #98fb98;
+  width: 6.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  color: black;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.year {
+  margin-left: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+select {
+  border-radius: 0.5rem;
+  height: 1.5rem;
+}
+
+.weather {
+  height: 4rem;
+  width: 22rem;
+  margin-left: 20%;
+  padding-top: 0.25rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.actualWeather {
+  font-size: 10px;
+  text-align: center;
+}
+
+.currentWeather {
+  display: flex;
+  flex-direction: column;
 }
